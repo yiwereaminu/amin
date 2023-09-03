@@ -174,3 +174,34 @@ a:link{
 a:hover{
     color: #eaf6f6;
 } */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+}
+nav li {
+  list-style: none;
+}
+.headerItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navItems1 + .navItems1 {
+  margin-left: 1rem;
+}
+.navItems2 + .navItems2 {
+  margin-left: 1rem;
+}
+svg {
+  fill: #eea302;
+}
