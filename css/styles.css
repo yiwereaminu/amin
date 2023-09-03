@@ -179,6 +179,9 @@ a:hover{
 *::after {
   box-sizing: border-box;
 }
+body {
+  font-family: "Montserrat", sans-serif;
+}
 .container {
   width: 90%;
   margin: 0 auto;
@@ -205,10 +208,20 @@ nav li {
 svg {
   fill: #eea302;
 }
-
+.name {
+  font-weight: bold;
+  line-height: normal;
+  font-size: 22px;
+}
+.profession {
+  font-weight: 300;
+}
 .header__resume__Portolio_contact a {
   text-decoration: none;
   color: black;
+}
+.header__resume__Portolio_contact li {
+  font-weight: 300;
 }
 
 .header__resume__Portolio_contact a:hover {
