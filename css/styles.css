@@ -205,3 +205,13 @@ nav li {
 svg {
   fill: #eea302;
 }
+
+.header__resume__Portolio_contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.header__resume__Portolio_contact a:hover {
+  transition: 0.5s;
+  color: #eea302;
+}
