@@ -252,11 +252,36 @@ svg {
   /* width: 40%; */
 }
 .mainBio {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .callToAction {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.callToAction a {
+  background: #eea302;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+  border: 1px black solid;
+  color: black;
+  font-weight: 500;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.phone,
+.email,
+.socials {
+  font-weight: bold;
 }
 
 @media (min-width: 900px) {
