@@ -273,11 +273,27 @@ svg {
   width: 85px;
   height: 85px;
   font-weight: 700;
-  background-color: #eea302;
+  /* background-color: #eea302; */
   text-align: center;
   margin: auto 0;
   border-radius: 100%;
   border: 1px black solid;
+}
+.callToResume {
+  background-color: #eea302;
+}
+.callToResume:hover,
+.callToContact:hover,
+.callToPortfolio:hover {
+  transition: 500ms;
+  background-color: rgb(243, 243, 243);
+}
+.callToPortfolio {
+  background-color: #de2c04;
+}
+
+.callToContact {
+  background-color: #83f9e7;
 }
 
 footer {
