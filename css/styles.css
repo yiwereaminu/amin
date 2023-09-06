@@ -305,7 +305,12 @@ footer {
 .socials {
   font-weight: bold;
 }
-
+.x {
+  color: black;
+}
+.github {
+  color: #2c352c;
+}
 @media (min-width: 900px) {
   .main {
     display: flex;
