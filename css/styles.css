@@ -334,3 +334,12 @@ footer {
     justify-content: space-evenly;
   }
 }
+
+/* styles for resume.html */
+.aboutMe {
+  width: 80%;
+  margin: 0 auto;
+}
+.aboutMe p {
+  width: 60%;
+}
