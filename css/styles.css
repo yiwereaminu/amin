@@ -311,6 +311,16 @@ footer {
 .github {
   color: #2c352c;
 }
+
+/* style for resume--work experience section */
+.date {
+  font-style: italic;
+}
+.positionHeld {
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 1rem;
+}
 @media (min-width: 900px) {
   .main {
     display: flex;
@@ -336,7 +346,7 @@ footer {
 }
 
 /* styles for resume.html */
-.aboutMe {
+/* .aboutMe {
   width: 80%;
   margin: 0 auto;
 }
@@ -348,6 +358,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
 .workExperience-exp {
   width: 50%;
-}
+} */
