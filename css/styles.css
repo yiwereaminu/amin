@@ -343,22 +343,26 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
   }
-}
+  /* styles for resume.html */
+  .aboutMe {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .aboutMe p {
+    width: 60%;
+  }
 
-/* styles for resume.html */
-/* .aboutMe {
-  width: 80%;
-  margin: 0 auto;
-}
-.aboutMe p {
-  width: 60%;
-}
+  .workExperience {
+    display: flex;
+    align-items: baseline;
+  }
 
-.workExperience {
-  display: flex;
-  justify-content: space-between;
+  .workExperience-exp {
+    width: 60%;
+  }
+  .workExperience-items {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
 }
-
-.workExperience-exp {
-  width: 50%;
-} */
