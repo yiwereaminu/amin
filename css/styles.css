@@ -343,3 +343,11 @@ footer {
 .aboutMe p {
   width: 60%;
 }
+
+.workExperience {
+  display: flex;
+  justify-content: space-between;
+}
+.workExperience-exp {
+  width: 50%;
+}
