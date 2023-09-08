@@ -355,14 +355,20 @@ footer {
   .workExperience {
     display: flex;
     align-items: baseline;
+    border-top: rgb(194, 185, 185) solid 1px;
+    margin-top: 5rem;
   }
 
   .workExperience-exp {
     width: 60%;
+    margin-top: 2rem;
   }
   .workExperience-items {
     display: flex;
     flex-direction: column;
     align-items: end;
+  }
+  .awardingInst {
+    font-weight: bold;
   }
 }
