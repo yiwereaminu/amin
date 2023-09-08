@@ -321,6 +321,15 @@ footer {
   font-size: larger;
   margin-left: 1rem;
 }
+
+/* style for the projects/portfolio section of the website */
+.projectHeader {
+  font-weight: bold;
+}
+.projectImage {
+  max-width: 100%;
+}
+/* Media query for desktop screens */
 @media (min-width: 900px) {
   .main {
     display: flex;
@@ -370,5 +379,24 @@ footer {
   }
   .awardingInst {
     font-weight: bold;
+  }
+
+  /* styles for the portfolio section of the websites */
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projectBody {
+    display: flex;
+    justify-content: space-between;
+  }
+  .projectDiv {
+    width: 50%;
+    margin-right: 2rem;
+  }
+  .imageDiv {
+    width: 50%;
+    align-self: center;
   }
 }
