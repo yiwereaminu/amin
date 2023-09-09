@@ -325,9 +325,26 @@ footer {
 /* style for the projects/portfolio section of the website */
 .projectHeader {
   font-weight: bold;
+  font-style: italic;
 }
 .projectImage {
   max-width: 100%;
+}
+.projectBody {
+  margin-top: 4rem;
+  border-top: rgb(153, 138, 138) solid 1px;
+}
+.projectHeader {
+  margin: 2rem auto;
+}
+
+.lastProject {
+  margin-bottom: 8rem;
+}
+
+.awardsList {
+  width: 70%;
+  margin: 0 auto;
 }
 /* Media query for desktop screens */
 @media (min-width: 900px) {
@@ -394,7 +411,9 @@ footer {
   .projectDiv {
     width: 50%;
     margin-right: 2rem;
+    /* margin-top: 4rem; */
   }
+
   .imageDiv {
     width: 50%;
     align-self: center;
