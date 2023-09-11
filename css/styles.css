@@ -330,6 +330,10 @@ footer {
   font-weight: bold;
   font-style: italic;
 }
+.projectDiv a {
+  list-style: none;
+  text-decoration: none;
+}
 .projectImage {
   max-width: 100%;
 }
@@ -348,6 +352,11 @@ footer {
 .awardsList {
   width: 70%;
   margin: 0 auto;
+}
+.tindog img {
+  border-radius: 10%;
+  transform: rotate(20deg);
+  margin-left: 3rem;
 }
 footer {
   margin-top: auto;
