@@ -181,6 +181,9 @@ a:hover{
 }
 body {
   font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -345,6 +348,9 @@ footer {
 .awardsList {
   width: 70%;
   margin: 0 auto;
+}
+footer {
+  margin-top: auto;
 }
 /* Media query for desktop screens */
 @media (min-width: 900px) {
